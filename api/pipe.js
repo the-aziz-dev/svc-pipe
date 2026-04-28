@@ -4,7 +4,7 @@ import { pipeline } from "node:stream/promises";
 export const config = {
   api: { bodyParser: false },
   supportsResponseStreaming: true,
-  maxDuration: 30,
+  maxDuration: 60,
 };
 
 const dst = (process.env.SVC_DST || "").replace(/\/+$/, "");
