@@ -1,4 +1,9 @@
 {
   "version": 2,
+  "functions": {
+    "api/pipe.js": {
+      "maxDuration": 60
+    }
+  },
   "rewrites": [{ "source": "/:match*", "destination": "/api/pipe" }]
 }
